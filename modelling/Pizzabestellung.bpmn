@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="1.11.2">
   <bpmn:collaboration id="Collaboration_1i2z28f">
-    <bpmn:participant id="Participant_1ihkml2" name="Bestellung" processRef="Process_1" />
+    <bpmn:participant id="Participant_1ihkml2" name="Kundin" processRef="Process_1" />
     <bpmn:participant id="Participant_0n7fx83" name="Pizza-Service" processRef="Process_0mmim2b" />
     <bpmn:messageFlow id="MessageFlow_0z28vv8" name="Pizza" sourceRef="Task_1nkbpfm" targetRef="IntermediateThrowEvent_18ikrm1" />
     <bpmn:messageFlow id="MessageFlow_16xl7fo" name="Bestellung" sourceRef="Task_0jks2o4" targetRef="StartEvent_1vbh2fm" />
